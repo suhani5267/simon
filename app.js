@@ -68,8 +68,8 @@ function btnPress() {
   }
   function reset() {
     started = false;
-    gameSeq =[];
-    userSeq =[];
+    gameSeq = [];
+    userSeq = [];
     level = 0;
     
   }
