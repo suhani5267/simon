@@ -1,7 +1,7 @@
 let gameSeq = [];
 let userSeq =[];
 
-let btns = ["yellow", "red", "purple", "green"]
+let btns = ["yellow", "red", "purple", "green"];
  let started = false;
  let level = 0;
   
@@ -23,7 +23,7 @@ function gameFlash(btn) {
 function userFlash(btn) {
     btn.classList.add("userflash");
     setTimeout(function () {
-        btn.classList.remove("userflash")
+        btn.classList.remove("userflash");
     }, 250);
 }
 function levelUp() {
